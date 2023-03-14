@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fons.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&display=swap');
 
 *{
     margin: 0;
@@ -30,13 +30,13 @@ ul li{
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
     transition: 0.5s;
 }
 
 ul li:hover{
     width: 180px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
 
 ul li::before{
